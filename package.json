@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "front": "pnpm --filter front"
+    "front": "pnpm --filter front",
+    "api": "pnpm --filter api",
+    "dev": "pnpm --stream -r dev"
   },
   "keywords": [],
   "author": "",
