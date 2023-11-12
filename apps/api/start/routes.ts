@@ -18,15 +18,15 @@
 |
 */
 
-import Route from '@ioc:Adonis/Core/Route'
-import { User } from '@monorepo/types'
+import Route from "@ioc:Adonis/Core/Route";
+import { User } from "@monorepo/types";
 
-Route.get('/', async () => {
+Route.get("/", async () => {
   const user: User = {
     id: 1,
-    name: 'John Doe',
-    email: 'john-doe@gmail.com',
-  }
+    name: "John Doe",
+    email: "john-doe@gmail.com",
+  };
 
-  return user
-})
+  return user;
+});

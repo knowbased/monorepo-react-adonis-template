@@ -1,6 +1,6 @@
 export type User = {
-    id: number;
-    name: string;
-    email: string;
+  id: number;
+  name: string;
+  email: string;
 };
 //# sourceMappingURL=index.d.ts.map
