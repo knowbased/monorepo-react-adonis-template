@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc --incremental",
+    "prepare": "pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

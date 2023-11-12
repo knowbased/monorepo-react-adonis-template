@@ -19,7 +19,14 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
+import { User } from '@monorepo/types'
 
 Route.get('/', async () => {
-  return { hello: 'world' }
+  const user: User = {
+    id: 1,
+    name: 'John Doe',
+    email: 'john-doe@gmail.com',
+  }
+
+  return user
 })
